@@ -1,75 +1,68 @@
-# 👋 Hello, I'm Gracie Emmanuel
+# Hi, I'm Gracie Emmanuel 👋
 
-🎯 **Cybersecurity Professional | Incident Response | Threat Hunting | Community Advocate**
+**Cybersecurity Professional | SOC → IAM Transition | Identity & Access Management**
 
----
-
-## 🌐 About Me
-
-I'm a dedicated cybersecurity professional passionate about **incident response**, **threat hunting**, and making cybersecurity knowledge accessible to all. With a background in **German language**, I bring strong cross-cultural communication skills into my mentoring, training, and advocacy efforts.
-
-I'm currently involved in:
-
-- 🚨 Building a beginner-friendly **SOC Academy**
-- 👩🏽‍🏫 Mentoring beginners across **cybersecurity communities** and volunteering with **Slum2School Africa**
-- 💻 Promoting cybersecurity awareness in underserved communities
+I'm a cybersecurity professional with 4 years in Security Operations, now deliberately transitioning into Identity and Access Management. I document everything I build — because learning in public keeps me accountable and might save someone else a few hours of troubleshooting.
 
 ---
 
-## 🧰 Technical Focus
+## 🔐 IAM Labs (Active Focus)
 
-- 🔍 Threat Hunting & Detection
-- 🛡️ Incident Response (NIST/SANS frameworks)
-- 🐾 Digital Forensics (Intermediate)
-- 📦 Malware Analysis & Ransomware Case Studies
-- ⚙️ **SIEM Tools**: Splunk, Rapid7, ArcSight ESM, QRadar, AlienVault, Microsoft Sentinel, Logsign
-- 🛡️ **EDR/XDR Tools**: Microsoft Defender for Endpoint (MDATP), SentinelOne, Cynet, Trend Micro Vision One, Carbon Black, CrowdStrike Falcon
-- 🧪 **Labs & Simulations**: Victim/attacker VMs, Malware Analysis Lab, Cybersecurity Home Lab (Detection & Monitoring)
-- 🧠 Frameworks: MITRE ATT&CK, NIST 800-61, SANS IR
+| Lab | What I Built | Key Concepts |
+|-----|-------------|--------------|
+| [AWS IAM — Users, Groups & S3 Access](https://github.com/CyberGracie/aws-iam-setup-guide) | Created IAM user groups with scoped permissions, provisioned IAM users, verified least-privilege access | RBAC, IAM Policies, Principle of Least Privilege |
+| [Auth0 OIDC Authentication Lab](https://github.com/CyberGracie/auth0-oidc-lab) | Configured OIDC auth flow end-to-end using Auth0, decoded a live JWT token and analysed every claim | OIDC, OAuth 2.0, JWT, Authorization Code Flow |
 
 ---
 
-## 🚀 Projects & Labs (Coming Soon)
+## 🛡️ SOC & Detection Labs
 
-Stay tuned for:
-
-- 📁 Ransomware Incident Response Walkthroughs
-- 🧑🏽‍💻 Threat Hunting Labs & Simulated Attacks
-- 🧩 SOC Playbooks and Alert Triage Scenarios
-- 🎓 Cybersecurity Learning Roadmaps for Beginners
+| Lab | Description |
+|-----|-------------|
+| [CyberOps Workstation Setup](https://github.com/CyberGracie/Cyberops-Workstation-Setup) | Homelab environment setup for security monitoring and detection |
 
 ---
 
-## 👥 Community & Advocacy
+## 🧰 Technical Background
 
-- 🌍 Community Manager at **CyberSecHaven**
-- 📣 Advocate for women transitioning into cybersecurity
-- 📚 Speaker and Volunteer for **Tech4Dev** and STEM outreach programs
-- 🤝 Empowering youth in underserved communities with digital skills
+**SOC / Detection**
+- SIEM: Splunk, Microsoft Sentinel, QRadar, ArcSight ESM, Rapid7, AlienVault, Logsign
+- EDR/XDR: CrowdStrike Falcon, Microsoft Defender for Endpoint, SentinelOne, Carbon Black, Trend Micro Vision One, Cynet
+- Frameworks: MITRE ATT&CK, NIST 800-61, SANS IR
+
+**Identity & Access Management (Building)**
+- AWS IAM, Auth0, OIDC / OAuth 2.0, JWT
+- Currently learning: Microsoft Entra ID, Conditional Access, PIM
 
 ---
 
-## 🛠️ Current Goals
+## ✍️ Writing
 
-- 🎯 Earn additional cybersecurity certifications
-- 🚀 Publish hands-on cybersecurity projects on GitHub and Medium
-- 🧩 Contribute to open-source tools in the SOC/DFIR space
-- 👩🏽‍💻 Continue mentoring and supporting newcomers in cybersecurity
+I write about cybersecurity, homelabs, and the realities of working in security on Medium.
+
+📝 [medium.com/@CyberBaller](https://medium.com/@CyberBaller)
+
+Recent posts:
+- [Learning Cybersecurity the Fun Way Through Homelabs](https://medium.com/@CyberBaller/learning-cybersecurity-the-fun-way-through-homelabs-412e171dc986)
+- [The One Mistake Incident Responders Can't Afford to Make](https://medium.com/@CyberBaller/the-one-mistake-incident-responders-cant-afford-to-make-ce34ec903f42)
+- [Cybersecurity FOMO: Are You Chasing Trends or Closing Gaps?](https://medium.com/@CyberBaller/cybersecurity-fomo-are-you-chasing-trends-or-closing-gaps-98f3fe7c95ff)
+
+---
+
+## 🌍 Community
+
+- Community Manager at **CyberSecHaven**
+- Volunteer with **Slum2School Africa** and **Tech4Dev**
+- Advocate for women and non-traditional backgrounds in cybersecurity
 
 ---
 
 ## 📫 Let's Connect
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/emmanuelgrace)
-- 📝 [Medium](https://medium.com/@CyberBaller)
-- ✉️ Email: emmanuelgracious[at]gmail[dot]com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-emmanuelgrace-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/emmanuelgrace)
+[![Medium](https://img.shields.io/badge/Medium-@CyberBaller-000000?style=flat&logo=medium)](https://medium.com/@CyberBaller)
+[![Email](https://img.shields.io/badge/Email-emmanuelgracious@gmail.com-D14836?style=flat&logo=gmail)](mailto:emmanuelgracious@gmail.com)
 
 ---
 
-> 💡 *“Cybersecurity is more than a job—it's a mission to protect people and empower communities.”*
-
-
-<!---
-CyberGracie/CyberGracie is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+> *"The best way to learn security is to build things, break them, and write about what happened."*
