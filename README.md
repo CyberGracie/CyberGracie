@@ -2,37 +2,49 @@
 
 **Cybersecurity Professional | SOC → IAM Transition | Identity & Access Management**
 
-I'm a cybersecurity professional with 4 years in Security Operations, now deliberately transitioning into Identity and Access Management. I document everything I build — because learning in public keeps me accountable and might save someone else a few hours of troubleshooting.
+I'm a cybersecurity professional with 4 years in Security Operations, now deliberately transitioning into Identity and Access Management. I document everything I build — because learning in public helps others and keeps me honest.
 
 ---
 
-## 🔐 IAM Labs (Active Focus)
+## 🔐 Featured IAM & Cloud Labs
 
-| Lab | What I Built | Key Concepts |
-|-----|-------------|--------------|
-| [AWS IAM — Users, Groups & S3 Access](https://github.com/CyberGracie/aws-iam-setup-guide) | Created IAM user groups with scoped permissions, provisioned IAM users, verified least-privilege access | RBAC, IAM Policies, Principle of Least Privilege |
-| [Auth0 OIDC Authentication Lab](https://github.com/CyberGracie/auth0-oidc-lab) | Configured OIDC auth flow end-to-end using Auth0, decoded a live JWT token and analysed every claim | OIDC, OAuth 2.0, JWT, Authorization Code Flow |
+I create hands-on labs and guides that teach practical identity, access, and cloud security concepts.
 
----
-
-## 🛡️ SOC & Detection Labs
-
-| Lab | Description |
-|-----|-------------|
-| [CyberOps Workstation Setup](https://github.com/CyberGracie/Cyberops-Workstation-Setup) | Homelab environment setup for security monitoring and detection |
+- [aws-iam-setup-guide](https://github.com/CyberGracie/aws-iam-setup-guide) — IAM users, groups, and scoped S3 access; step-by-step IAM provisioning and least-privilege examples.
+- [aws-least-privilege-lab](https://github.com/CyberGracie/aws-least-privilege-lab) — Practical exercises demonstrating least-privilege policies and permission scoping across AWS resources.
+- [aws-cross-account-role-lab](https://github.com/CyberGracie/aws-cross-account-role-lab) — Cross-account role switching with STS AssumeRole and trust policies to securely access S3 across accounts.
+- [aws-oidc-lab](https://github.com/CyberGracie/aws-oidc-lab) — OIDC-based workflows for AWS authentication and short-lived credential patterns.
+- [aws-passwordless-fido2-lab](https://github.com/CyberGracie/aws-passwordless-fido2-lab) — Passwordless authentication lab using FIDO2/WebAuthn and AWS IAM Identity Center.
+- [azure-lab-01-manage-user-roles](https://github.com/CyberGracie/azure-lab-01-manage-user-roles) — Microsoft Entra ID / RBAC hands-on lab: PIM, bulk provisioning, Graph PowerShell, and license assignment.
 
 ---
 
-## 🧰 Technical Background
+## 🛡️ SOC & Detection
 
-**SOC / Detection**
-- SIEM: Splunk, Microsoft Sentinel, QRadar, ArcSight ESM, Rapid7, AlienVault, Logsign
-- EDR/XDR: CrowdStrike Falcon, Microsoft Defender for Endpoint, SentinelOne, Carbon Black, Trend Micro Vision One, Cynet
-- Frameworks: MITRE ATT&CK, NIST 800-61, SANS IR
+- [Cyberops-Workstation-Setup](https://github.com/CyberGracie/Cyberops-Workstation-Setup) — Homelab and workstation build for security monitoring and detection with tools like Security Onion and Cisco CyberOps VM.
 
-**Identity & Access Management (Building)**
-- AWS IAM, Auth0, OIDC / OAuth 2.0, JWT
-- Currently learning: Microsoft Entra ID, Conditional Access, PIM
+---
+
+## 🧰 Tools, Tutorials & Getting Started
+
+- [auth0-oidc-lab](https://github.com/CyberGracie/auth0-oidc-lab) — End-to-end OIDC auth flow with Auth0, JWT analysis, and OAuth fundamentals.
+- [skills-getting-started-with-github-copilot](https://github.com/CyberGracie/skills-getting-started-with-github-copilot) — Exercises for getting started with GitHub Copilot and practical examples.
+
+---
+
+## ✨ What I Work On (high-level themes)
+
+- Identity & Access Management: AWS IAM, OIDC, Auth0, Microsoft Entra ID, PIM, least-privilege design.
+- Cloud security: cross-account access, short-lived credentials, policy scoping.
+- Authentication & modern auth: OIDC, OAuth2, JWT, FIDO2 / WebAuthn.
+- SOC / Detection: monitoring environments, building homelabs, incident response tooling.
+- Documentation & labs: step-by-step guides and reproducible learning environments.
+
+---
+
+## 📅 Recent activity
+
+- Active labs and updates across AWS & Azure identity workflows (see repo timestamps for latest updates).
 
 ---
 
@@ -41,11 +53,6 @@ I'm a cybersecurity professional with 4 years in Security Operations, now delibe
 I write about cybersecurity, homelabs, and the realities of working in security on Medium.
 
 📝 [medium.com/@CyberBaller](https://medium.com/@CyberBaller)
-
-Recent posts:
-- [Learning Cybersecurity the Fun Way Through Homelabs](https://medium.com/@CyberBaller/learning-cybersecurity-the-fun-way-through-homelabs-412e171dc986)
-- [The One Mistake Incident Responders Can't Afford to Make](https://medium.com/@CyberBaller/the-one-mistake-incident-responders-cant-afford-to-make-ce34ec903f42)
-- [Cybersecurity FOMO: Are You Chasing Trends or Closing Gaps?](https://medium.com/@CyberBaller/cybersecurity-fomo-are-you-chasing-trends-or-closing-gaps-98f3fe7c95ff)
 
 ---
 
@@ -65,4 +72,6 @@ Recent posts:
 
 ---
 
-> *"The best way to learn security is to build things, break them, and write about what happened."*
+> "The best way to learn security is to build things, break them, and write about what happened."  
+
+(Updated automatically to include summaries of public repos.)
